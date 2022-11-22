@@ -87,7 +87,7 @@ const Dashboard = () => {
 						<StatsCard period="last month" amount={1214} total_orders={250} />
 					</div>
 
-					<div className="w-full h-full grid grid-cols-1 lg:grid-cols-2 gap-4">
+					<div className="w-full h-full grid grid-cols-1 gap-4">
 						<DashChart weekData={WEEKDATA} yearData={YEARDATA} />
 						<DashTable data={TABLEDATA} />
 					</div>

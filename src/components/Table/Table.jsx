@@ -132,18 +132,19 @@ const TableComponent = ({
 					</Table>
 				</TableContainer>
 				<div className="hidden lg:flex w-full justify-end lg:px-10">
-					{rows.length > 10 && dashboard ? (
+					{dashboard ? (
 						<TablePagination
-							rowsPerPageOptions={[5]}
+							rowsPerPageOptions={[]}
 							component="div"
 							count={rows.length}
-							rowsPerPage={5}
+							rowsPerPage={pageSize}
 							page={pageIndex}
 							onPageChange={(e, page) => gotoPage(page)}
-							onRowsPerPageChange={(e) => setPageSize(Number(e.target.value))}
+							//onRowsPerPageChange={(e) => setPageSize(Number(e.target.value))}
 						/>
 					) : (
-						rows.length > 10 && (
+						rows.length > 10 &&
+						!dashboard && (
 							<TablePagination
 								rowsPerPageOptions={[10, 25, 50]}
 								component="div"

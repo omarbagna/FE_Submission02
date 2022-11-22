@@ -2,6 +2,16 @@
 
 Take Home Project
 
-![PREVIEW DARK](/preview/bagna-beats-dark.png)
+![LOGIN PAGE DESKTOP](/assets/preview/LoginDesktop.png)
 
-![PREVIEW LIGHT](/preview/bagna-beats-light.png)
+![LOGIN PAGE FAILED ATTEMPT](/assets/preview/loginDesktopFailed.png)
+
+![LOGIN PAGE MOBILE](/assets/preview/loginMobile.png)
+
+![DASHBOARD PAGE DESKTOP](/assets/preview/DashboardDesktop.png)
+
+![DASHBOARD PAGE MOBILE](/assets/preview/DashboardMobile.png)
+
+![LOADING SCREEN](/assets/preview/LoadingScreen.png)
+
+![FAILED FETCH](/assets/preview/FailedFetch.png)

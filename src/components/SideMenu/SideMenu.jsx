@@ -1,5 +1,5 @@
 import { logo } from '../../assets';
-import { HiOutlineMenuAlt4, HiOutlineLogin } from 'react-icons/hi';
+import { HiOutlineLogin } from 'react-icons/hi';
 import {
 	TbLayoutSidebarLeftExpand,
 	TbLayoutSidebarRightExpand,
